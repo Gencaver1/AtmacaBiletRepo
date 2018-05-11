@@ -16,8 +16,8 @@
         <h:form style=";background-color: white; height: 150px; margin: -8px">
             <h:panelGroup style="position: relative">
                 <p:graphicImage value="resources/img/logo.png" style="margin-top: -20px; margin-left: 50px"/>           
-                <p:commandButton value="Giris Yap" action="#{atmaca.action1()}" style="margin-left: 800px; margin-top: 5em; width: 95px; height: 35px"/>                
-                <p:commandButton value="Üye Ol" action="#{atmaca.action()}" style=" margin-left: 10px; margin-top: 5em; width: 95px; height: 35px"/> 
+                <p:commandButton value="Giris Yap" action="/giris?faces-redirect=true" style="margin-left: 800px; margin-top: 5em; width: 95px; height: 35px"/>                
+                <p:commandButton value="Üye Ol" action="/uyeGiris?faces-redirect=true" style=" margin-left: 10px; margin-top: 5em; width: 95px; height: 35px"/> 
                 <p:commandButton value="İletişim" action="iletisim.xhtml" />                
             </h:panelGroup>
         </h:form> 
